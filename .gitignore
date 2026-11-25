@@ -1,0 +1,46 @@
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Build output (CMake, Ninja, Make)
+build/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Compiled objects, libraries and executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Debug symbols
+*.dSYM/
+*.pdb
+
+# VS Code / Visual Studio
+.vscode/
+.vs/
+*.user
+
+# macOS
+.DS_Store
+
+# Data files created by the program (your personal lists)
+*.todo
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
